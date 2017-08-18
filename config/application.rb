@@ -19,6 +19,8 @@ module SireneAsAPI
 
     # Background tasks
     config.active_job.queue_adapter = :resque
-    config.autoload_paths += %W(#{config.root}/lib #{config.root}/app/interactors #{config.root}/app/services)
-  end
+    config.autoload_paths += %W(#{config.root}/lib #{config.root}/app/interactors/ #{config.root}/app/services
+    #{config.root}/app/interactors/custom_tasks/
+    #{config.root}/app/interactors/custom_tasks/custom_daily_update
+    #{config.root}/app/interactors/custom_tasks/custom_monthly_import) end
 end

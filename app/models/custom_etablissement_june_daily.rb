@@ -1,0 +1,2 @@
+class CustomEtablissementJuneDaily < ApplicationRecord
+end
