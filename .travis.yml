@@ -10,3 +10,4 @@ script:
 before_script:
   - "psql -f postgresql_setup.txt;' -U postgres"
   - "RAILS_ENV=test bundle exec rails db:migrate"
+#second try
