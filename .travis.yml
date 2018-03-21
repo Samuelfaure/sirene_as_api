@@ -11,5 +11,4 @@ script:
 before_script:
   - psql -U postgres -f postgresql_setup.txt
   - RAILS_ENV=test bundle exec rails db:migrate
-  - RAILS_ENV=test bundle exec rake sunspot:solr:stop
   - RAILS_ENV=test bundle exec rake sunspot:solr:start
