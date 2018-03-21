@@ -5,6 +5,7 @@ cache: bundler
 env:
   - DB=postgresql
 script:
+  - pkill -f solr
   - RAILS_ENV=test bundle exec rake sunspot:solr:start
   - bundle exec rspec
 before_script:
