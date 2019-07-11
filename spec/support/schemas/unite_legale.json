@@ -1,0 +1,364 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/data/items",
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "attributes",
+          "relationships"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/data/items/properties/id",
+            "type": [
+              "null",
+              "string"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "type": {
+            "$id": "#/properties/data/items/properties/type",
+            "type": [
+              "null",
+              "string"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "attributes": {
+            "$id": "#/properties/data/items/properties/attributes",
+            "type": "object",
+            "required": [
+              "siren",
+              "statut_diffusion",
+              "unite_purgee",
+              "date_creation",
+              "sigle",
+              "sexe",
+              "prenom_1",
+              "prenom_2",
+              "prenom_3",
+              "prenom_4",
+              "prenom_usuel",
+              "pseudonyme",
+              "identifiant_association",
+              "tranche_effectifs",
+              "annee_effectifs",
+              "date_dernier_traitement",
+              "nombre_periodes",
+              "categorie_entreprise",
+              "annee_categorie_entreprise",
+              "date_debut",
+              "etat_administratif",
+              "nom",
+              "nom_usage",
+              "denomination",
+              "denomination_usuelle_1",
+              "denomination_usuelle_2",
+              "denomination_usuelle_3",
+              "categorie_juridique",
+              "activite_principale",
+              "nomenclature_activite_principale",
+              "nic_siege",
+              "economie_sociale_solidaire",
+              "caractere_employeur"
+            ],
+            "properties": {
+              "siren": {
+                "$id": "#/properties/data/items/properties/attributes/properties/siren",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "statut_diffusion": {
+                "$id": "#/properties/data/items/properties/attributes/properties/statut_diffusion",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "unite_purgee": {
+                "$id": "#/properties/data/items/properties/attributes/properties/unite_purgee",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "date_creation": {
+                "$id": "#/properties/data/items/properties/attributes/properties/date_creation",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "sigle": {
+                "$id": "#/properties/data/items/properties/attributes/properties/sigle",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "sexe": {
+                "$id": "#/properties/data/items/properties/attributes/properties/sexe",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "prenom_1": {
+                "$id": "#/properties/data/items/properties/attributes/properties/prenom_1",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "prenom_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/prenom_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "prenom_3": {
+                "$id": "#/properties/data/items/properties/attributes/properties/prenom_3",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "prenom_4": {
+                "$id": "#/properties/data/items/properties/attributes/properties/prenom_4",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "prenom_usuel": {
+                "$id": "#/properties/data/items/properties/attributes/properties/prenom_usuel",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "pseudonyme": {
+                "$id": "#/properties/data/items/properties/attributes/properties/pseudonyme",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "identifiant_association": {
+                "$id": "#/properties/data/items/properties/attributes/properties/identifiant_association",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "tranche_effectifs": {
+                "$id": "#/properties/data/items/properties/attributes/properties/tranche_effectifs",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "annee_effectifs": {
+                "$id": "#/properties/data/items/properties/attributes/properties/annee_effectifs",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "date_dernier_traitement": {
+                "$id": "#/properties/data/items/properties/attributes/properties/date_dernier_traitement",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nombre_periodes": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nombre_periodes",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "categorie_entreprise": {
+                "$id": "#/properties/data/items/properties/attributes/properties/categorie_entreprise",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "annee_categorie_entreprise": {
+                "$id": "#/properties/data/items/properties/attributes/properties/annee_categorie_entreprise",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "date_debut": {
+                "$id": "#/properties/data/items/properties/attributes/properties/date_debut",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "etat_administratif": {
+                "$id": "#/properties/data/items/properties/attributes/properties/etat_administratif",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nom": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nom",
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "nom_usage": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nom_usage",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "denomination": {
+                "$id": "#/properties/data/items/properties/attributes/properties/denomination",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "denomination_usuelle_1": {
+                "$id": "#/properties/data/items/properties/attributes/properties/denomination_usuelle_1",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "denomination_usuelle_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/denomination_usuelle_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "denomination_usuelle_3": {
+                "$id": "#/properties/data/items/properties/attributes/properties/denomination_usuelle_3",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "categorie_juridique": {
+                "$id": "#/properties/data/items/properties/attributes/properties/categorie_juridique",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "activite_principale": {
+                "$id": "#/properties/data/items/properties/attributes/properties/activite_principale",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nomenclature_activite_principale": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nomenclature_activite_principale",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nic_siege": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nic_siege",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "economie_sociale_solidaire": {
+                "$id": "#/properties/data/items/properties/attributes/properties/economie_sociale_solidaire",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "caractere_employeur": {
+                "$id": "#/properties/data/items/properties/attributes/properties/caractere_employeur",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          },
+          "relationships": {
+            "$id": "#/properties/data/items/properties/relationships",
+            "type": "object",
+            "required": [
+              "etablissements"
+            ],
+            "properties": {
+              "etablissements": {
+                "$id": "#/properties/data/items/properties/relationships/properties/etablissements",
+                "type": "object",
+                "required": [
+                  "data"
+                ],
+                "properties": {
+                  "data": {
+                    "$id": "#/properties/data/items/properties/relationships/properties/etablissements/properties/data",
+                    "type": "array",
+                    "items": {
+                      "$id": "#/properties/data/items/properties/relationships/properties/etablissements/properties/data/items",
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "type"
+                      ],
+                      "properties": {
+                        "id": {
+                          "$id": "#/properties/data/items/properties/relationships/properties/etablissements/properties/data/items/properties/id",
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "pattern": "^(.*)$"
+                        },
+                        "type": {
+                          "$id": "#/properties/data/items/properties/relationships/properties/etablissements/properties/data/items/properties/type",
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "pattern": "^(.*)$"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

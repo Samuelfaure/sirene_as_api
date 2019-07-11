@@ -89,6 +89,8 @@ group :test do
   gem 'timecop'
   gem 'vcr'
   gem 'webmock'
+  # Validate JSON:API format
+  gem 'json_schemer'
 end
 
 group :development do

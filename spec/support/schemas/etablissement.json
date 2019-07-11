@@ -1,0 +1,529 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/data/items",
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "attributes",
+          "relationships"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/data/items/properties/id",
+            "type": [
+              "null",
+              "string"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "type": {
+            "$id": "#/properties/data/items/properties/type",
+            "type": [
+              "null",
+              "string"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "attributes": {
+            "$id": "#/properties/data/items/properties/attributes",
+            "type": "object",
+            "required": [
+              "siren",
+              "nic",
+              "siret",
+              "statut_diffusion",
+              "date_creation",
+              "tranche_effectifs",
+              "annee_effectifs",
+              "activite_principale_registre_metiers",
+              "date_dernier_traitement",
+              "etablissement_siege",
+              "nombre_periodes",
+              "complement_adresse",
+              "numero_voie",
+              "indice_repetition",
+              "type_voie",
+              "libelle_voie",
+              "code_postal",
+              "libelle_commune",
+              "libelle_commune_etranger",
+              "distribution_speciale",
+              "code_commune",
+              "code_cedex",
+              "libelle_cedex",
+              "code_pays_etranger",
+              "libelle_pays_etranger",
+              "complement_adresse_2",
+              "numero_voie_2",
+              "indice_repetition_2",
+              "type_voie_2",
+              "libelle_voie_2",
+              "code_postal_2",
+              "libelle_commune_2",
+              "libelle_commune_etranger_2",
+              "distribution_speciale_2",
+              "code_commune_2",
+              "code_cedex_2",
+              "libelle_cedex_2",
+              "code_pays_etranger_2",
+              "libelle_pays_etranger_2",
+              "date_debut",
+              "etat_administratif",
+              "enseigne_1",
+              "enseigne_2",
+              "enseigne_3",
+              "denomination_usuelle",
+              "activite_principale",
+              "nomenclature_activite_principale",
+              "caractere_employeur",
+              "longitude",
+              "latitude",
+              "geo_score",
+              "geo_type",
+              "geo_adresse",
+              "geo_id",
+              "geo_ligne",
+              "geo_l4",
+              "geo_l5"
+            ],
+            "properties": {
+              "siren": {
+                "$id": "#/properties/data/items/properties/attributes/properties/siren",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nic": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nic",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "siret": {
+                "$id": "#/properties/data/items/properties/attributes/properties/siret",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "statut_diffusion": {
+                "$id": "#/properties/data/items/properties/attributes/properties/statut_diffusion",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "date_creation": {
+                "$id": "#/properties/data/items/properties/attributes/properties/date_creation",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "tranche_effectifs": {
+                "$id": "#/properties/data/items/properties/attributes/properties/tranche_effectifs",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "annee_effectifs": {
+                "$id": "#/properties/data/items/properties/attributes/properties/annee_effectifs",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "activite_principale_registre_metiers": {
+                "$id": "#/properties/data/items/properties/attributes/properties/activite_principale_registre_metiers",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "date_dernier_traitement": {
+                "$id": "#/properties/data/items/properties/attributes/properties/date_dernier_traitement",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "etablissement_siege": {
+                "$id": "#/properties/data/items/properties/attributes/properties/etablissement_siege",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nombre_periodes": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nombre_periodes",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "complement_adresse": {
+                "$id": "#/properties/data/items/properties/attributes/properties/complement_adresse",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "numero_voie": {
+                "$id": "#/properties/data/items/properties/attributes/properties/numero_voie",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "indice_repetition": {
+                "$id": "#/properties/data/items/properties/attributes/properties/indice_repetition",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "type_voie": {
+                "$id": "#/properties/data/items/properties/attributes/properties/type_voie",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_voie": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_voie",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_postal": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_postal",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_commune": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_commune",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_commune_etranger": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_commune_etranger",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "distribution_speciale": {
+                "$id": "#/properties/data/items/properties/attributes/properties/distribution_speciale",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_commune": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_commune",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_cedex": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_cedex",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_cedex": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_cedex",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_pays_etranger": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_pays_etranger",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_pays_etranger": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_pays_etranger",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "complement_adresse_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/complement_adresse_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "numero_voie_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/numero_voie_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "indice_repetition_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/indice_repetition_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "type_voie_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/type_voie_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_voie_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_voie_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_postal_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_postal_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_commune_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_commune_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_commune_etranger_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_commune_etranger_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "distribution_speciale_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/distribution_speciale_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_commune_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_commune_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_cedex_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_cedex_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_cedex_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_cedex_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code_pays_etranger_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/code_pays_etranger_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "libelle_pays_etranger_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/libelle_pays_etranger_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "date_debut": {
+                "$id": "#/properties/data/items/properties/attributes/properties/date_debut",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "etat_administratif": {
+                "$id": "#/properties/data/items/properties/attributes/properties/etat_administratif",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "enseigne_1": {
+                "$id": "#/properties/data/items/properties/attributes/properties/enseigne_1",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "enseigne_2": {
+                "$id": "#/properties/data/items/properties/attributes/properties/enseigne_2",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "enseigne_3": {
+                "$id": "#/properties/data/items/properties/attributes/properties/enseigne_3",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "denomination_usuelle": {
+                "$id": "#/properties/data/items/properties/attributes/properties/denomination_usuelle",
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "activite_principale": {
+                "$id": "#/properties/data/items/properties/attributes/properties/activite_principale",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "nomenclature_activite_principale": {
+                "$id": "#/properties/data/items/properties/attributes/properties/nomenclature_activite_principale",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "caractere_employeur": {
+                "$id": "#/properties/data/items/properties/attributes/properties/caractere_employeur",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "longitude": {
+                "$id": "#/properties/data/items/properties/attributes/properties/longitude",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "latitude": {
+                "$id": "#/properties/data/items/properties/attributes/properties/latitude",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_score": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_score",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_type": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_type",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_adresse": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_adresse",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_id": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_id",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_ligne": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_ligne",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_l4": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_l4",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "geo_l5": {
+                "$id": "#/properties/data/items/properties/attributes/properties/geo_l5",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          },
+          "relationships": {
+            "$id": "#/properties/data/items/properties/relationships",
+            "type": "object",
+            "required": [
+              "unite_legale"
+            ],
+            "properties": {
+              "unite_legale": {
+                "$id": "#/properties/data/items/properties/relationships/properties/unite_legale",
+                "type": "object",
+                "required": [
+                  "data"
+                ],
+                "properties": {
+                  "data": {
+                    "$id": "#/properties/data/items/properties/relationships/properties/unite_legale/properties/data"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
