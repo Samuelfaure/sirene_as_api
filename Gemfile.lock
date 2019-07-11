@@ -46,7 +46,6 @@ GEM
     arel (7.1.4)
     ast (2.4.0)
     awesome_print (1.8.0)
-    blueprinter (0.18.0)
     brakeman (4.2.1)
     builder (3.2.3)
     byebug (10.0.2)
@@ -80,6 +79,8 @@ GEM
       railties (>= 3.0.0)
     faraday (0.15.0)
       multipart-post (>= 1.2, < 3)
+    fast_jsonapi (1.5)
+      activesupport (>= 4.2)
     ffi (1.9.25)
     formatador (0.2.5)
     fuubar (2.3.1)
@@ -369,12 +370,12 @@ PLATFORMS
 DEPENDENCIES
   activerecord-import
   awesome_print
-  blueprinter
   brakeman
   byebug
   colorize
   connection_pool (~> 2.2)
   factory_bot_rails
+  fast_jsonapi
   fuubar
   growl
   guard

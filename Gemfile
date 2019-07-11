@@ -55,7 +55,7 @@ gem 'trailblazer-rails'
 gem 'has_scope'
 
 # JSON serialization
-gem 'blueprinter'
+gem 'fast_jsonapi'
 
 # Gem for deploying cron jobs
 gem 'whenever', require: false
