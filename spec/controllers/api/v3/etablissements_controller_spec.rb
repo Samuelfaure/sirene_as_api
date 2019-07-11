@@ -1,5 +1,5 @@
 require 'rails_helper'
 
 describe API::V3::EtablissementsController do
-  it_behaves_like 'scopable', :etablissement, :siret, :denomination_usuelle
+  it_behaves_like 'scopable', :etablissement, :siret, :enseigne_1
 end

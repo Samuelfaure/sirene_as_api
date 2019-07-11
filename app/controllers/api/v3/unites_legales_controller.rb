@@ -5,6 +5,7 @@ class API::V3::UnitesLegalesController < ApplicationController
   # Add param for fullText value
   def index
     results = apply_scopes(UniteLegale).all
-    render json: results, status: 200
+
+    render json: UniteLegaleSerializer.new(results).serialized_json, status: 200
   end
 end
