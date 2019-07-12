@@ -4,7 +4,8 @@ class API::V3::EtablissementsController < ApplicationController
   def index
     @results = apply_scopes(Etablissement).all
 
-    render json: etablissement_json, status: 200
+    render json: etablissement_json, status: 200 and return unless @results.empty?
+    render json: etablissement_json, status: 404
   end
 
   # add siret to scopes and send it to #index

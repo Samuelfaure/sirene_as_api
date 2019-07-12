@@ -6,7 +6,8 @@ class API::V3::UnitesLegalesController < ApplicationController
   def index
     @results = apply_scopes(UniteLegale).all
 
-    render json: unite_legale_json, status: 200
+    render json: unite_legale_json, status: 200 and return unless @results.empty?
+    render json: unite_legale_json, status: 404
   end
 
   # add siret to scopes and send it to #index
