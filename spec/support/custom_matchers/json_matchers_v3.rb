@@ -1,4 +1,4 @@
-def diff_json_schema(body, model)
+def diff_with_schema(body, model)
   schema_directory = "#{Dir.pwd}/spec/support/schemas"
   schema_path = "#{schema_directory}/#{model}.json"
   schema = Pathname.new(schema_path)

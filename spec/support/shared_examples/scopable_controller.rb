@@ -1,4 +1,4 @@
-shared_examples 'scopable' do |model, field_1, field_2|
+shared_examples 'a scopable controller' do |model, field_1, field_2|
   describe 'filtering', type: :request do
     let!(:instance_1) { create(model, field_1 => '001', field_2 => 'Foo') }
     let!(:instance_2) { create(model, field_1 => '002', field_2 => 'Bar') }
